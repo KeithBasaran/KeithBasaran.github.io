@@ -1,0 +1,25 @@
+.container {
+	background-color: red;
+}
+
+.content {
+	background-color: pink;
+}
+
+#testie_sm {
+    width: 70%;
+}
+
+.item_1 {
+    background: orange;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    border: 1px solid white;
+}
+
+.item_2 {
+    background: orange;
+    text-align: center;
+    border: 1px solid white;
+}
