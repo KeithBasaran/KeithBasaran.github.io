@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "UFT-8">
+		<meta http-equiv = "X-UA-Compatible" content = "IE = edge">
+		<meta name = "viewport" content = "width = device-width, initial-scale = 1, shrink-to-fit = no">
+		<link rel = "stylesheet" href = "css/styles.css">
+		<link rel = "stylesheet" href = "css/bootstrap.min.css">
+        
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script type="text/javascript" src="./classes/ball.html"></script>
+        <script src="./classes/arrow.html"></script> 
+        
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
+        
+		<title></title>
+	</head>
+	
+	<body class = "body"> 
+        <nav class = "navbar navbar-toggleable-sm">
+            <button class = "navbar-toggler navbar-toggler-right" type = "button" data-toggle = "collapse" data-target = "#navbar_collapse">
+                <span class = "navbar-toggler-icon">...</span>
+            </button>
+            <a class = "navbar-brand" href = "#">Brand</a>
+            <div class = "collapse navbar-collapse" id = "navbar_collapse">
+                <div class = "navbar-nav">
+                    <a class = "nav-item nav-link" href = "#">One</a>
+                    <div class = "dropdown">
+                        <a class = "nav-item nav-link dropdown-toggle" href = "#" data-toggle = "dropdown">Two</a>
+                        <div class = "dropdown-menu">
+                            <a class = "dropdown-item" href = "#">Dropdown One</a>
+                            <a class = "dropdown-item" href = "#">Dropdown Two</a>
+                        </div><!-- dropdown-menu -->
+                    </div><!-- dropdown -->
+                    <a class = "nav-item nav-link" href = "#">Three</a>
+                </div><!-- navbar-nav -->
+            </div>
+        </nav>
+        
+		<div class = "container">
+            <div class = "row">
+                <div class = "col-12">
+                    <h1>Rotating to Mouse Coordinates</h1>
+                    <hr class = "hr">
+                </div>
+                <div class = "col-5">
+                        <p class = "lead">This is where card text will go. This is where card text will go. This is where card text will go. This is where card text will go. This is where card text will go. This is where card text will go.</p>
+                        
+                        <p class = "lead">This is where card text will go. This is where card text will go. This is where card text will go. This is where card text will go. This is where card text will go. This is where card text will go.</p>
+                </div>
+                <div class = "col-7">
+                        <canvas id="myCanvas_1" width="640" height="480" style="border:1px solid #000000;">
+                        </canvas>
+                        <script src = "arrow.js"></script>
+                </div>
+            </div>
+		</div>
+        
+        <script src = "js/jquery-3.2.1.js"></script>
+		<script src = "js/tether.min.js"></script>
+		<script src = "js/bootstrap.min.js"></script>
+		<script src = "js/scripts.js"></script>
+		
+	</body>
+</html>

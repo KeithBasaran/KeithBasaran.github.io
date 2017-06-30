@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "UFT-8">
+		<meta http-equiv = "X-UA-Compatible" content = "IE = edge">
+		<meta name = "viewport" content = "width = device-width, initial-scale = 1, shrink-to-fit = no">
+		<link rel = "stylesheet" href = "css/styles.css">
+		<link rel = "stylesheet" href = "css/bootstrap.min.css">
+        
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script type="text/javascript" src="./classes/ball.html"></script>
+        <script src="./classes/ball.html"></script> 
+        
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
+        
+		<title></title>
+        <link rel = "icon" type = "image/png" href = "images/title.png">
+	</head>
+	
+	<body class = "body"> 
+        <nav class = "navbar navbar-toggleable-sm mb-4">
+            <button class = "navbar-toggler navbar-toggler-right" type = "button" data-toggle = "collapse" data-target = "#navbar_collapse">
+                <span class = "navbar-toggler-icon">...</span>
+            </button>
+            <a class = "navbar-brand" href = "index.html"><img class = "img-fluid" src = "images/brand.png"></a>
+            <div class = "collapse navbar-collapse" id = "navbar_collapse">
+                <div class = "navbar-nav">
+                    <a class = "nav-item nav-link highlight" href = "index.html">About</a>
+                    <a class = "nav-item nav-link nav-active" href = "portfolio.html"><hr class = "nav-hr">Portfolio</a>
+                    <a class = "nav-item nav-link highlight" href = "kobasaran_cv.pdf">Resume</a>
+                </div><!-- navbar-nav -->
+            </div>
+        </nav>
+        <div class = "nav-underline"></div>
+        
+		<div class = "container">
+            <div class = "row">
+                <div class = "push-lg-2 col-lg-8 pull-lg-2 title">
+                    <h1><b>Animating a Loop Pattern</b></h1>
+                </div>
+                <div class = "push-lg-2 col-lg-8 pull-lg-2">
+                    <hr class = "underline">
+                </div> 
+            </div>
+            <div class = "row">
+                <div class = "push-lg-2 col-lg-8 pull-lg-2">
+                    <p class = "paragraph">Similar to the spiral path animation, this example uses the same techniques to generate a path, however it begins at the top of the canvas rather than from the centre.</p>
+                    
+                    <p class = "paragraph">The "moveTo" function is used to create the same parametric equation, while the "lineTo" function tracks the position of the path on the x and y axis. During every iteration the circle's position on the x and y axis is increased to ensure that the path is animated across the canvas.</p>
+                </div>
+                <div class = "push-lg-2 col-lg-8 pull-lg-2">
+                        <script src = "diagonal_spiral.js"></script>
+                        <canvas id="myCanvas_1" width="640" height="480" style="border:1px solid #000000;">
+                        </canvas>
+                </div>
+            </div>
+		</div>
+        
+        <script src = "js/jquery-3.2.1.js"></script>
+		<script src = "js/tether.min.js"></script>
+		<script src = "js/bootstrap.min.js"></script>
+		<script src = "js/scripts.js"></script>
+		
+	</body>
+</html>

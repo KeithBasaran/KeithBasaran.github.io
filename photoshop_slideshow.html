@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "UFT-8">
+		<meta http-equiv = "X-UA-Compatible" content = "IE = edge">
+		<meta name = "viewport" content = "width = device-width, initial-scale = 1, shrink-to-fit = no">
+		<link rel = "stylesheet" href = "css/styles.css">
+		<link rel = "stylesheet" href = "css/bootstrap.min.css">
+        
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script type="text/javascript" src="./classes/ball.html"></script>
+        <script src="./classes/ball.html"></script> 
+        
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
+        
+		<title></title>
+        <link rel = "icon" type = "image/png" href = "images/title.png">
+	</head>
+	
+	<body class = "body"> 
+        <nav class = "navbar navbar-toggleable-sm mb-4">
+            <button class = "navbar-toggler navbar-toggler-right" type = "button" data-toggle = "collapse" data-target = "#navbar_collapse">
+                <span class = "navbar-toggler-icon">...</span>
+            </button>
+            <a class = "navbar-brand" href = "index.html"><img class = "img-fluid" src = "images/brand.png"></a>
+            <div class = "collapse navbar-collapse" id = "navbar_collapse">
+                <div class = "navbar-nav">
+                    <a class = "nav-item nav-link highlight" href = "index.html">About</a>
+                    <a class = "nav-item nav-link nav-active" href = "portfolio.html"><hr class = "nav-hr">Portfolio</a>
+                    <a class = "nav-item nav-link highlight" href = "kobasaran_cv.pdf">Resume</a>
+                </div><!-- navbar-nav -->
+            </div>
+        </nav>
+        <div class = "nav-underline"></div>
+        
+		<div class = "container">
+            <div class = "row">
+                <div class = "push-lg-2 col-lg-8 pull-lg-2 title">
+                    <h1><b>Collection of Images</b></h1>
+                </div>
+                <div class = "push-lg-2 col-lg-8 pull-lg-2">
+                    <hr class = "underline">
+                </div> 
+            </div>
+            <div class = "row">
+                <div class = "push-lg-2 col-lg-8 pull-lg-2">
+                        <p class = "paragraph">The following images were completed using a variety of techniques used within the image editor, Adobe Photoshop. Each image was designed with an understanding of the importance of layers and selections along with adjustment layers, masks, layer effects and filters.</p>
+                        
+                        <p class = "paragraph">Tools such as the shape, type, gradient and lasso were also used to develop the images.</p>
+                </div>
+                <div class = "push-lg-2 col-lg-8 pull-lg-2">
+                    <div class = "carousel slide slides" id = "featured" data-ride = "carousel">
+                        <ol class = "carousel-indicators">
+                            <li data-target = "#featured" data-slide-to = "0" class = "active"></li>
+                            <li data-target = "#featured" data-slide-to = "1"></li>
+                            <li data-target = "#featured" data-slide-to = "2"></li>
+                        </ol>
+                        <div class = "carousel-inner">
+                            <div class = "carousel-item active">
+                                <img class = "img-fluid" src = "images/photoshop_image_1_slideshow.png">
+                            </div>
+                            <div class = "carousel-item">
+                                <img class = "img-fluid" src = "images/photoshop_image_2_slideshow.png">
+                            </div>
+                            <div class = "carousel-item">
+                                <img class = "img-fluid" src = "images/photoshop_image_3_slideshow.png">
+                            </div>
+                        </div>
+                        <a class = "carousel-control-prev" href = "#featured" role = "button" data-slide = "prev">
+                            <span class = "carousel-control-prev-icon"></span>
+                        </a>
+                        <a class = "carousel-control-next" href = "#featured" role = "button" data-slide = "next">
+                            <span class = "carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+		</div>
+        
+        <script>
+            $(function() {
+                $(".carousel").carousel({
+                    interval: 4000
+                })
+            })
+        </script>
+        
+        <script src = "js/jquery-3.2.1.js"></script>
+		<script src = "js/tether.min.js"></script>
+		<script src = "js/bootstrap.min.js"></script>
+		<script src = "js/scripts.js"></script>
+		
+	</body>
+</html>

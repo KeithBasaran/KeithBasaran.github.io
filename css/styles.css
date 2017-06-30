@@ -1,25 +1,204 @@
+@media (max-width: 576px) {
+  .btn {
+      width: 100% !important;
+      display: block !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .image_border {
+      margin-top: 34px !important;
+  }
+}
+
 .container {
-	background-color: red;
+	background-color: #d2d6d9;
 }
 
-.content {
-	background-color: pink;
+.body {
+	background-color: #d2d6d9;
+    font-family: 'Roboto', sans-serif;
 }
 
-#testie_sm {
-    width: 70%;
+.row {
+	background-color: #d2d6d9;
 }
 
-.item_1 {
-    background: orange;
-    text-align: center;
-    width: 150px;
-    height: 30px;
-    border: 1px solid white;
+.nav-active {
+    text-shadow: 2px 2px #a7adb5;
 }
 
-.item_2 {
-    background: orange;
-    text-align: center;
-    border: 1px solid white;
+.portfolio_title {
+    font-size: 1.3em; !important;
+    position: relative;
+    bottom: 0px;
+}
+
+.paragraph {
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    word-spacing: 0px;
+	font-size: 14px;
+	line-height: 1.6;
+}
+
+.slideshow_paragraph {
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    word-spacing: 0px;
+	font-size: 18px;
+	line-height: 1.6;
+}
+
+.portfolio_title a {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.portfolio_title a:hover {
+    text-shadow: 2px 2px #e9ecee !important;
+}
+
+.nav-hr {
+    margin-bottom: 7px;
+    margin-top: -8px;
+    box-shadow: 1px 3px 1px #a7adb5;
+    background-color: black;
+}
+
+.nav-underline {
+    height: 4px;
+    background-color: white;
+    position: relative;
+    top: -24px;
+}
+
+.navbar-brand {
+    text-shadow: 2px 2px #a7adb5;
+}
+
+.navbar {
+    border-bottom: 1px solid black;
+    box-shadow: 1px 3px 1px #a7adb5;
+    background-color: #c3c8cd;
+}
+
+.navbar-nav a {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.highlight:hover {
+    text-shadow: 2px 2px #e9ecee !important;
+}
+
+.image_border {
+    border-radius: 4px;
+    border: 3px solid white !important;
+}
+
+.title {
+    margin-bottom: -20px;
+}
+
+.image_portfolio {
+    opacity: 1;
+    transition: opacity .2s ease-in-out;
+   -moz-transition: opacity .2s ease-in-out;
+   -webkit-transition: opacity .2s ease-in-out;
+}
+
+.image_portfolio:hover {
+    opacity: 0.6;
+}
+
+.underline {
+    height: 1px;
+    background-color: #4a494f;
+    box-shadow: 0px 2px 1px #a7adb5;
+}
+
+#featured .carousel-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.btn-warning {
+    position: relative;
+    background-color: #ef9974 !important;
+    top: 0px;
+    border: 1px solid #ef9974 !important;
+    border-top-right-radius: 12px !important;
+    border-bottom-right-radius: 4px !important;
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+}
+
+.btn-warning:hover {
+    background-color: white !important;
+    color: #ef9974 !important;
+    border: 1px solid #ef9974 !important;
+    text-decoration: none !important;
+}
+
+.btn-info {
+    position: relative;
+    background-color: #82cadd !important;
+    top: 0px;
+    border: 1px solid #82cadd !important;
+    border-top-right-radius: 12px !important;
+    border-bottom-right-radius: 4px !important;
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+}
+
+.btn-info:hover {
+    background-color: white !important;
+    color: #82cadd !important;
+    border: 1px solid #82cadd !important;
+    text-decoration: none !important;
+}
+
+.btn-success {
+    position: relative;
+    background-color: #63c292 !important;
+    top: 0px;
+    border: 1px solid #63c292 !important;
+    border-top-right-radius: 12px !important;
+    border-bottom-right-radius: 4px !important;
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+}
+
+.btn-success:hover {
+    background-color: white !important;
+    color: #63c292 !important;
+    border: 1px solid #63c292 !important;
+    text-decoration: none !important;
+}
+
+.slides {
+    border-radius: 5px;
+    border: 3px solid white;
+}
+
+.slides img {
+    border-radius: 5px;
+}
+
+.portrait {
+    border-radius: 5px;
+    border: 3px solid white;
+}
+
+#myCanvas_1 {
+    border-radius: 5px;
+    border: 3px solid white !important;
+    background-color: #c3c8cd;
+    background: -webkit-radial-gradient(#d3dce3, #b2c0cb);
+    background: -o-radial-gradient(#d3dce3, #b2c0cb);
+    background: -moz-radial-gradient(#d3dce3, #b2c0cb);
+    background: radial-gradient(#d3dce3, #b2c0cb);
+    width: 100%;
+    height: auto;
 }
